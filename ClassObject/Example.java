@@ -5,8 +5,10 @@ public class Example {
 		int id;
 		int age;
 		String SchoolName;
+	
+	public Example(){}
 
-	public void Example(String name, int id, int age, String SchoolName){
+	Example(String name, int id, int age, String SchoolName){
 		this.name = name;
 		this.id = id;
 		this.age = age;

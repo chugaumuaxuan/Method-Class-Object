@@ -4,7 +4,9 @@ public class MyCar {
 	 String name;
 	 int GiaXe;
 
-	public void MyCar(String name, int GiaXe) {
+	public MyCar(){}
+	
+	 MyCar(String name, int GiaXe) {
 		 this.name = name;
 		 this.GiaXe = GiaXe;
 	 }
